@@ -1,0 +1,88 @@
+[
+                    {"question":"Who developed Python Programming Language?",
+                    "answer":"Guido van Rossum",
+                    "choices":["Wick van Rossum","Lasmus Lerdorf","Guido van Rossum","Niene Stom"],
+                    "explanation":"Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands."},
+
+                    {"question":"Which type of programming language does Python support?",
+                    "answer":"All of the above",
+                    "choices":["Object-oriented programming","Structured programming","Functional programming","All of the above"],
+                    "explanation":"Python is an interpreted programming language, which supports object-oriented, structured, and functional programming."},
+
+                    {"question":"Is Python case sensitive when dealing with identifiers?",
+                    "answer":"Yes",
+                    "choices":["No","Yes","Machine-dependent","None of the above"],
+                    "explanation":"Case is always significant while dealing with identifiers in python."},
+
+                    {"question":"Is Python code compiled or interpreted?",
+                    "answer":"Python code is both compiled and interpreted",
+                    "choices":["Python code is both compiled and interpreted","Python code is neither compiled nor interpreted","Python code is only compiled","Python code is only interpreted"],
+                    "explanation":"Many languages have been implemented using both compilers and interpreters, including C, Pascal, and Python."},
+
+                    {"question":"All keywords in Python are in _________",
+                    "answer":"None of the mentioned",
+                    "choices":["Capitalized","lower case","UPPERCASE","None of the mentioned"],
+                    "explanation":"True, False and None are capitalized while the others are in lower case."},
+
+                    {"question":"Which of the following is used to define a block of code in Python language?",
+                    "answer":"Indentation",
+                    "choices":["Indentation","Key","Brackets","All of the mentioned"],
+                    "explanation":"In Python, to define a block of code we use indentation. Indentation refers to whitespaces at the beginning of the line."},
+
+                    {"question":"Which keyword is used for function in Python language?",
+                    "answer":"def",
+                    "choices":["Function","def","Fun","Fun"],
+                    "explanation":"The def keyword is used to create, (or define) a function in python."},
+
+                    {"question":"Which of the following character is used to give single-line comments in Python?",
+                    "answer":"#",
+                    "choices":["//","#","*","/*"],
+                    "explanation":"To write single-line comments in Python use the Hash character (#) at the beginning of the line. It is also called number sign or pound sign. To write multi-line comments, close the text between triple quotes."},
+
+                    {"question":"Which of the following functions can help us to find the version of python that we are currently working on?",
+                    "answer":"sys.version",
+                    "choices":["sys.version(1)","sys.version(0)","sys.version()","sys.version"],
+                    "explanation":"The function sys.version can help us to find the version of python that we are currently working on. It also contains information on the build number and compiler used. For example, 3.5.2, 2.7.3 etc. this function also returns the current date, time, bits etc along with the version."},
+
+                    {"question":"Python supports the creation of anonymous functions at runtime, using a construct called __________",
+                    "answer":"lambda",
+                    "choices":["pi","anonymous","lambda","None of the mentioned"],
+                    "explanation":"Python supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used."},
+
+                    {"question":"Which of the following is not a core data type in Python programming?",
+                    "answer":"Class",
+                    "choices":["Tuples","Lists","Dictinaries","Class"],
+                    "explanation":"Class is a user-defined data type."},
+
+                    {"question":"Which of the following is the truncation division operator in Python?",
+                    "answer":"//",
+                    "choices":["|","//","%","/"],
+                    "explanation":"// is the operator for truncation division. It is called so because it returns only the integer part of the quotient, truncating the decimal part. For example: 20//3 = 6."},
+
+                    {"question":"Which of the following functions is a built-in function in python?",
+                    "answer":"print()",
+                    "choices":["factorial()","print()","seed()","sqrt()"],
+                    "explanation":"The function seed is a function which is present in the random module. The functions sqrt and factorial are a part of the math module. The print function is a built-in function which prints a value directly to the system output."},
+
+                    {"question":"Which of these is the definition for packages in Python?",
+                    "answer":"A folder of python modules",
+                    "choices":["A set of main modules","A folder of python modules","A number of files containing Python definitions and statements","A set of programs making use of Python modules"],
+                    "explanation":"A folder of python programs is called as a package of modules."},
+
+                    {"question":"What is the order of namespaces in which Python looks for an identifier?",
+                    "answer":"Python first searches the local namespace, then the global namespace and finally the built-in namespace",
+                    "choices":["Python first searches the built-in namespace, then the global namespace and finally the local namespace",
+                    "Python first searches the built-in namespace, then the local namespace and finally the global namespace",
+                    "Python first searches the local namespace, then the global namespace and finally the built-in namespace",
+                    "Python first searches the global namespace, then the local namespace and finally the built-in namespace"],
+                    "explanation":" Python first searches for the local, then the global and finally the built-in namespace."},
+
+                    {"question":" Which one of the following is the use of function in python?",
+                    "answer":"Functions are reusable pieces of programs",
+                    "choices":["Functions don’t provide better modularity for your application",
+                    "you can’t also create your own functions",
+                    "Functions are reusable pieces of programs",
+                    "All of the mentioned"],
+                    "explanation":" Functions are reusable pieces of programs. They allow you to give a name to a block of statements, allowing you to run that block using the specified name anywhere in your program and any number of times."}
+                    
+                    ]

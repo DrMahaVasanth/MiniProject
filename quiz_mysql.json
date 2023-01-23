@@ -1,0 +1,80 @@
+[                   {"question":"What does SQL stand for?",
+                    "answer":"Structured Query Language",
+                    "choices":["Structured Question Language","Strong Question Language","Structured Query Language","String Query Language"],
+                    "explanation":"SQL stands for Structured Query Language"},
+
+                    {"question":"Which of the following can add a row to a table?",
+                    "answer":"Insert",
+                    "choices":["Add","Insert","Update","Alter"],
+                    "explanation":"The command 'Insert' used to add a row in a table; whereas 'Update' and 'Alter' used to modify the existing rows."},
+
+                    {"question":"What does DML stand for?",
+                    "answer":"Data Manipulation Language",
+                    "choices":["Data Manipulation Language","Data Modeling Language","Data Markup Language","Data Migration Language"],
+                    "explanation":"DML stands for Data Manipulation Language"},
+
+                    {"question":"Which of the following is not a keyword of MYSQL?",
+                    "answer":"Top",
+                    "choices":["Select","Top","Group","Insert"],
+                    "explanation":"TOP is not used in MySQL"},
+
+                    {"question":"Which of the following query is correct to get Current Date from Query?\nA. SELECT DATE ( NOW() ) as today;\nB. SELECT DATE_FORMAT( NOW( ) , '%Y-%m-%d' ) as today;",
+                    "answer":"Both",
+                    "choices":["SELECT DATE ( NOW() ) as today;","SELECT DATE_FORMAT( NOW( ) , '%Y-%m-%d' ) as today;","Both A and B","None"],
+                    "explanation":"Both queries displays the current date in the prescribed format"},
+
+                    {"question":"Which of the following is not a valid aggregate function?",
+                    "answer":"COMPUTE",
+                    "choices":["COUNT","COMPUTE","MAX","AVG"],
+                    "explanation":"Compute is not a valid aggregate function. 'COUNT, SUM, AVG, MAX, MIN' are aggregate functions in MySQL"},
+
+                    {"question":"SQL is not case sensitive. SELECT is the same as select.",
+                    "answer":"TRUE",
+                    "choices":["TRUE","FALSE"],
+                    "explanation":"MySQL is not case sensitive, so that it is very user-friendly"},
+
+                    {"question":"The _________ statement is used to delete a table.",
+                    "answer":"DROP TABLE",
+                    "choices":["DROP TABLE","DELETE TABLE","DEL TABLE","REMOVE TABLE"],
+                    "explanation":"DROP TABLE deletes the entire table, whereas DELETE TABLE deletes the rows not the table"},
+
+                    {"question":"Which one of the following sorts rows in SQL?",
+                    "answer":"ORDER BY",
+                    "choices":["SORT BY","ALIGN BY","GROUP BY","ORDER BY"],
+                    "explanation":"ORDER BY is used to sort the rows either albhabetically or ascending or descending"},
+
+                    {"question":"Which SQL statement is used to return only different values?",
+                    "answer":"SELECT DISTINCT",
+                    "choices":["SELECT DISTINCT","SELECT UNIQUE","SELECT DIFFERENT","SELECT DIFF"],
+                    "explanation":"SELECT DISTINCT is used to identify the unique values in a column of a table"},
+
+                    {"question":"In a LIKE clause, you can ask for any 6 letter value by writing",
+                    "answer":"LIKE ______ (that's six underscore characters)",
+                    "choices":["LIKE ______ (that's six underscore characters)","LIKE ...... (that's six dots)","LIKE .{6}","LIKE ??????"],
+                    "explanation":"'_' means a single character. So, to ask for 6 character value, 6 ('_')'s are used"},
+
+                    {"question":"SQL can be used to:",
+                    "answer":"All of the mentioned",
+                    "choices":["Create database structures only","Query database data only","Modify database data only","All of the mentioned"],
+                    "explanation":"SQL used to create, modify, delete database."},
+
+                    {"question":"The SQL keyword BETWEEN is used:",
+                    "answer":"For ranges",
+                    "choices":["For ranges","To limit the columns displayed","As a wildcard"," To limit the rows displayed"],
+                    "explanation":"The keyword 'BETWEEN' used to select the range of the rows to be displayed"},
+
+                    {"question":"Which clause is used to “Filters out unwanted data”?",
+                    "answer":"WHERE)",
+                    "choices":["FROM","SELECT","ORDER BY","WHERE"],
+                    "explanation":"'WHERE' clause used to filter out the records providing any condition"},
+
+                    {"question":"Write a query to display first_name and last_name of all employees who have their first_name starting with 'A'.",
+                    "answer":"Select first_name from employess where first_name LIKE 'A%';",
+                    "choices":["Select first_name from employess where first_name LIKE 'A%';","Select first_name from employess where first_name LIKE '%A';","Select first_name from employess where first_name LIKE ''A'%';","Select first_name from employess where first_name LIKE '%A%';"],
+                    "explanation":"'A%' allows the data starting with 'A' followed by any number of characters"},
+
+                    {"question":"Which SQL statement is used to update data in a database?",
+                    "answer":"UPDATE",
+                    "choices":["MODIFY","ALTER","UPDATE","SAVE"],
+                    "explanation":"'UPDATE' command is used to modify the existing data in a database"}
+                    ]
